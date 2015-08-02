@@ -70,6 +70,9 @@ default *'#56e1e1'*, scope *context*
 default *'#56e1e1'*, scope *context*
 ###fill3 
 default *'#56e1e1'*, scope *context*
+
+The various fills of the SVG animation.  Not all SVGs have 3 fills; you may have to play with these a little to understand which part of the SVG they are.
+
 ###disconnectedFill 
 default '#db2828', scope *context*
 
