@@ -1,8 +1,8 @@
 Package.describe({
   name: 'ros:infinispin',
-  version: '1.0.0',
+  version: '1.0.1',
   // Brief, one-line summary of the package.
-  summary: 'A collection of spinners that signify a persistent connection to the server; integrated into a Meteor application.',
+  summary: 'Spinners that signify a persistent connection.',
   // URL to the Git repository containing the source code for this package.
   git: '',
   // By default, Meteor will default to using README.md for documentation.
