@@ -1,3 +1,4 @@
 .spinWrapper{
     display:inline-block;
+    visibility: collapse;
 }

@@ -9,14 +9,15 @@
                     $('.spinWrapper > svg').each(function (i, el) {
                         el.unpauseAnimations();
                         el.parentNode.attributes.title.value = Meteor.infinispin.options.title;
-                        $('.spinDisconnect').attr('visibility', 'hidden')
+                        $('.spinDisconnect').attr('visibility', 'hidden');
+                        $('.spinWrapper').css('visibility', 'visible'); //hidden by default until connection made
                     });
                 } else if (madeFirstConnection) {
                     $('.spinWrapper > svg').each(function (i, el) {
                         el.setCurrentTime(Meteor.infinispin.options.stopFrame);
                         el.pauseAnimations();
                         el.parentNode.attributes.title.value = Meteor.infinispin.options.disconnectedTitle;
-                        $('.spinDisconnect').attr('visibility', 'visible')
+                        $('.spinDisconnect').attr('visibility', 'visible');
                     });
                 }
             }
