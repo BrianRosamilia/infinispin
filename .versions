@@ -16,7 +16,7 @@ observe-sequence@1.0.6
 ordered-dict@1.0.3
 random@1.0.3
 reactive-var@1.0.5
-ros:infinispin@1.0.1
+ros:infinispin@1.0.2
 spacebars-compiler@1.0.6
 templating@1.1.1
 tracker@1.0.7
